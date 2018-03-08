@@ -26,7 +26,10 @@ Product.propTypes = {
   color: PropTypes.oneOf(['white', 'eggshell-white', 'salmon']).isRequired, 
   weight: function(props, propName) {
     const weight = props[propName];
-    if (weight  )
+    if (weight === undefined ) {
+      
+    }
+    
     
   }
 }
