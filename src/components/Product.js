@@ -33,6 +33,8 @@ Product.propTypes = {
       
     }
     
-    const 
+    const isValid = weight >= 80 && weight <= 300;
+    
+    
   }
 }
