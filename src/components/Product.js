@@ -29,7 +29,7 @@ Product.propTypes = {
     if (weight === undefined ) {
       
     }
-    
+    else if ()
     
   }
 }
