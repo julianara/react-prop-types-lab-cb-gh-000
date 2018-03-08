@@ -29,7 +29,10 @@ Product.propTypes = {
     if (weight === undefined ) {
       
     }
-    else if ()
+    else if (isNaN(weight)) {
+      
+    }
     
+    const 
   }
 }
