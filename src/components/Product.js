@@ -27,7 +27,7 @@ Product.propTypes = {
   weight: function(props, propName) {
     const weight = props[propName];
     if (weight === undefined ) {
-       return new Error('The `weight` prop should range between 80 and 300.');
+       return new Error('The `weight` prop is undefined.');
     }
     else if (isNaN(weight)) {
        return new Error('The `weight` prop is not a number.');
