@@ -30,13 +30,13 @@ Product.propTypes = {
       
     }
     else if (isNaN(weight)) {
-      
+       return new Error('The `weight` prop is not a number.');
     }
     
     const isValid = weight >= 80 && weight <= 300;
     
     if (!isValid) {
-      
+      return new Error('The `weight` prop should range between 80 and 300.');
     }
   }
 }
